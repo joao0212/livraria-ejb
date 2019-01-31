@@ -11,10 +11,10 @@ import br.com.caelum.livraria.service.AutorService;
 @Model
 public class AutorBean {
 
-	private Autor autor = new Autor();
-
 	@Inject
 	private AutorService autorService;
+
+	private Autor autor = new Autor();
 
 	public Autor getAutor() {
 		return autor;
